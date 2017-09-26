@@ -1,0 +1,12 @@
+[package]
+name = "toplevel"
+version = "0.1.0"
+authors = ["Daniel Wagner-Hall <dwagnerhall@twitter.com>"]
+
+[lib]
+crate-type = ["dylib"]
+
+[workspace]
+
+[dependencies]
+dep = { path = "dep" }
